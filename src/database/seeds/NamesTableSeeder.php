@@ -15,7 +15,7 @@ class NamesTableSeeder extends Seeder
     public function run()
     {
         // create an array of names from the CSV
-        $fullNames = file(storage_path('app/names.csv'));
+        $fullNames = file(storage_path('names.csv'));
 
         // empty array ready to store names
         $names = [];
